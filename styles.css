@@ -1,0 +1,42 @@
+/* 1. Element Selector: Targets the entire page body */
+body {
+    background-color: #f4f7f6; /* Sets a light gray background */
+    font-family: 'Arial', sans-serif; /* Sets the default text font */
+    color: #333333; /* Dark gray text color for better readability */
+    margin: 0; /* Removes default browser outer margins */
+    padding: 20px; /* Adds inner spacing around the page content */
+}
+
+/* 2. Element Selector: Targets all <h1> headings */
+h1 {
+    color: #2c3e50; /* Deep blue-gray color */
+    font-size: 2.5rem; /* Scales font size dynamically */
+    border-bottom: 2px solid #3498db; /* Adds a blue accent underline */
+    padding-bottom: 10px; /* Space between text and the underline */
+}
+
+/* 3. Class Selector: Targets any HTML element with class="card" */
+.card {
+    background-color: #ffffff; /* White background for the card container */
+    border-radius: 8px; /* Rounds the corners of the box */
+    padding: 20px; /* Inner spacing around card text */
+    max-width: 400px; /* Keeps the container from stretching too wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle drop-shadow effect */
+}
+
+/* 4. ID Selector: Targets a single unique element with id="main-btn" */
+#main-btn {
+    background-color: #e74c3c; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* 10px top/bottom, 20px left/right spacing */
+    border: none; /* Removes the default browser button border */
+    border-radius: 4px; /* Slightly rounds button corners */
+    cursor: pointer; /* Changes the mouse pointer to a hand icon on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* 5. Pseudo-class Selector: Changes button state when hovered over */
+#main-btn:hover {
+    background-color: #c0392b; /* Darkens the red background on hover */
+}
+
